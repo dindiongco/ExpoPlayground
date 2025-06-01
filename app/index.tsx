@@ -8,7 +8,7 @@ export default function Index() {
         Basic screen (Day 1)
       </Link>
       <Link href="/profile" style={styles.button} >
-        Profile screen 2
+        Profile screen (Day 2)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 3
