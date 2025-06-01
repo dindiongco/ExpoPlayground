@@ -1,20 +1,63 @@
- import { Text, View, StyleSheet } from 'react-native';
+ import { ScrollView, StyleSheet } from 'react-native';
  import { Link } from 'expo-router'; 
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Home screen</Text>
-      <Link href="/profile" style={styles.button}>
-        Go to About screen
+    <ScrollView style={styles.scrollView} contentContainerStyle={styles.container}>
+      <Link href="/basic" style={styles.button} >
+        Basic screen (Day 1)
       </Link>
-    </View>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 2
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 3
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 4
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 5
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 6
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 7
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 8
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 9
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 10
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 11
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 12
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 13
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 14
+      </Link>
+      <Link href="/profile" style={styles.button} >
+        Profile screen 15
+      </Link>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
+  scrollView: {
+  flex: 1, // apply flex here instead
+  },
   container: {
-    flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
   },
@@ -22,8 +65,13 @@ const styles = StyleSheet.create({
     color: '#25292e',
   },
   button: {
+    padding: 20,
     fontSize: 20,
+    width: '100%',
+    textAlign: 'center',
     textDecorationLine: 'underline',
+    borderBlockColor: '#25292e',
+    borderWidth: 1,
     color: '#25292e',
   },
 });
