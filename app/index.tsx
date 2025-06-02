@@ -10,8 +10,8 @@ export default function Index() {
       <Link href="/profile" style={styles.button} >
         Profile screen (Day 2)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 3
+      <Link href="/flexbox" style={styles.button} >
+        Flexbox (Day 3)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 4
