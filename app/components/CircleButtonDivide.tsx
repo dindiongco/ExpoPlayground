@@ -1,15 +1,16 @@
 import { View, Pressable, StyleSheet } from 'react-native';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+
+import { Feather } from '@expo/vector-icons';
 
 type Props = {
   onPress: () => void;
 };
 
-export default function CircleButtonMinus({ onPress }: Props) {
+export default function CircleButtonDivide({ onPress }: Props) {
   return (
     <View style={styles.circleButtonContainer}>
       <Pressable style={styles.circleButton} onPress={onPress}>
-        <MaterialIcons name="remove" size={38} color="#25292e" />
+        <Feather name='divide' size={38} color="#25292e" />
       </Pressable>
     </View>
   );

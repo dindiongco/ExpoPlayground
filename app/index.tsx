@@ -16,8 +16,8 @@ export default function Index() {
       <Link href="/counter" style={styles.button} >
         Counter (Day 4)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 5
+      <Link href="/calculator" style={styles.button} >
+        Calculator (Day 5)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 6
