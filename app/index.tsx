@@ -1,5 +1,5 @@
- import { ScrollView, StyleSheet } from 'react-native';
- import { Link } from 'expo-router'; 
+ import { Link } from 'expo-router';
+import { ScrollView, StyleSheet } from 'react-native';
 
 export default function Index() {
   return (
@@ -22,8 +22,8 @@ export default function Index() {
       <Link href="/profile" style={styles.button} >
         Profile screen 6
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 7
+      <Link href="/textInput" style={styles.button} >
+        Text Input (Day 8) 
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 8
