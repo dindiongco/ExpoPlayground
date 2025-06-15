@@ -25,8 +25,8 @@ export default function Index() {
       <Link href="/textInput" style={styles.button} >
         Text Input (Day 8) 
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 8
+      <Link href="/signupForm" style={styles.button} >
+        Signup Form (Day 9)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 9
