@@ -28,8 +28,8 @@ export default function Index() {
       <Link href="/signupForm" style={styles.button} >
         Signup Form (Day 9)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 9
+      <Link href="/flatlist" style={styles.button} >
+        FlatList Dummy Data (Day 10)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 10
