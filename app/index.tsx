@@ -31,8 +31,8 @@ export default function Index() {
       <Link href="/flatlist" style={styles.button} >
         FlatList Dummy Data (Day 10)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 10
+      <Link href="/miniShoppingCart" style={styles.button} >
+        Mini Shopping Cart (Day 11)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 11
