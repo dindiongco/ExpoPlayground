@@ -1,7 +1,7 @@
+import CircleButtonAdd from '@/app/components/calculator/CircleButtonAdd';
+import CircleButtonMinus from '@/app/components/calculator/CircleButtonMinus';
 import { useState } from 'react';
-import { View, StyleSheet, Text } from 'react-native';
-import CircleButtonAdd from '@/app/components/CircleButtonAdd';
-import CircleButtonMinus from '@/app/components/CircleButtonMinus';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function CounterScreen() {
     const [counter, setCounter] = useState<number>(0);
