@@ -34,8 +34,8 @@ export default function Index() {
       <Link href="/miniShoppingCart" style={styles.button} >
         Mini Shopping Cart (Day 11)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 11
+      <Link href="/swipeToDelete" style={styles.button} >
+        Swipe To Delete (Day 12)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 12
