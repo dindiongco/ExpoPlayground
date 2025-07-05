@@ -37,8 +37,8 @@ export default function Index() {
       <Link href="/swipeToDelete" style={styles.button} >
         Swipe To Delete (Day 12)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 12
+      <Link href="/bottomTabNavigator" style={styles.button} >
+        Bottom Tab Navigation (Day 13)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 13
