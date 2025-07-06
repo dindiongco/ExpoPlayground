@@ -40,8 +40,8 @@ export default function Index() {
       <Link href="/bottomTabNavigator" style={styles.button} >
         Bottom Tab Navigation (Day 13)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 13
+      <Link href="/conditionalStyling" style={styles.button} >
+        Conditional Styling ToDo (Day 14)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 14
