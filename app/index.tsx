@@ -43,8 +43,8 @@ export default function Index() {
       <Link href="/conditionalStyling" style={styles.button} >
         Conditional Styling ToDo (Day 14)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 14
+      <Link href="/fetchPokemon" style={styles.button} >
+        Fetching from API (Day 15)
       </Link>
       <Link href="/profile" style={styles.button} >
         Profile screen 15
