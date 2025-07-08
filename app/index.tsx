@@ -46,8 +46,8 @@ export default function Index() {
       <Link href="/fetchPokemon" style={styles.button} >
         Fetching from API (Day 15)
       </Link>
-      <Link href="/profile" style={styles.button} >
-        Profile screen 15
+      <Link href="/imagePicker" style={styles.button} >
+        Image Picker (Day 16)
       </Link>
     </ScrollView>
   );
