@@ -52,6 +52,12 @@ export default function Index() {
       <Link href="/expoLocation" style={styles.button} >
         Expo Location (Day 17)
       </Link>
+      <Link href="/asyncStorage" style={styles.button} >
+        AsyncStorage (Day 18)
+      </Link>
+      <Link href="/imagePicker" style={styles.button} >
+        Image Picker (Day 16)
+      </Link>
       <Link href="/imagePicker" style={styles.button} >
         Image Picker (Day 16)
       </Link>
