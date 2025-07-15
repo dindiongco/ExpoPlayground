@@ -55,8 +55,8 @@ export default function Index() {
       <Link href="/asyncStorage" style={styles.button} >
         AsyncStorage (Day 18)
       </Link>
-      <Link href="/imagePicker" style={styles.button} >
-        Image Picker (Day 16)
+      <Link href="/modal" style={styles.button} >
+        Modal (Day 20)
       </Link>
       <Link href="/imagePicker" style={styles.button} >
         Image Picker (Day 16)
