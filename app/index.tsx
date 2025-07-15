@@ -58,8 +58,8 @@ export default function Index() {
       <Link href="/modal" style={styles.button} >
         Modal (Day 20)
       </Link>
-      <Link href="/imagePicker" style={styles.button} >
-        Image Picker (Day 16)
+      <Link href="/layoutAnimation" style={styles.button} >
+        Layout Animation (Day 24)
       </Link>
     </ScrollView>
   );
