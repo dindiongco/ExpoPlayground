@@ -61,6 +61,9 @@ export default function Index() {
       <Link href="/layoutAnimation" style={styles.button} >
         Layout Animation (Day 24)
       </Link>
+      <Link href="/loadingSpinner" style={styles.button} >
+        Loading Spinner (Day 25)
+      </Link>
     </ScrollView>
   );
 }
