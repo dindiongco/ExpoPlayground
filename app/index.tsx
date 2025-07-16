@@ -64,6 +64,9 @@ export default function Index() {
       <Link href="/loadingSpinner" style={styles.button} >
         Loading Spinner (Day 25)
       </Link>
+      <Link href="/pullToRefresh" style={styles.button} >
+        Pull to Refresh List (Day 27)
+      </Link>
     </ScrollView>
   );
 }
