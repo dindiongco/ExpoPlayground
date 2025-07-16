@@ -33,6 +33,21 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            {
+              "name": "Inter-Black",
+              "file": "node_modules/@expo-google-fonts/inter/900Black/Inter_900Black.ttf"
+            },
+            {
+              "name": "ManufacturingConsent-Regular",
+              "file": "node_modules/@expo-google-fonts/manufacturing-consent/400/ManufacturingConsent_400Regular.ttf"
+            }
+          ]
+        }
       ]
     ],
     "experiments": {
