@@ -58,6 +58,9 @@ export default function Index() {
       <Link href="/modal" style={styles.button} >
         Modal (Day 20)
       </Link>
+      <Link href="/darkMode" style={styles.button} >
+        Dark Mode (Day 21)
+      </Link>
       <Link href="/layoutAnimation" style={styles.button} >
         Layout Animation (Day 24)
       </Link>
